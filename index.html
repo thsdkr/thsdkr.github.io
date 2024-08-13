@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thsd&#46;kr</title>
+    <meta name="author" content="Jimin Cheon"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <style>
+		h1 {
+			font-family: "Krona One", sans-serif;
+            font-style: normal;
+            font-size: 13px;
+            letter-spacing: -0.7px;
+            color: #383838;
+            text-align: center;
+            position: fixed;
+            top: 96.8%;
+            width: 100%;
+		}
+        body {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        img {
+            margin: auto;
+            display: block;
+            width: 500px;
+            object-fit: cover;
+            -webkit-user-drag: none;
+            -khtml-user-drag: none;
+            -moz-user-drag: none;
+            -o-user-drag: none;
+            user-drag: none;
+        }
+        .container {
+            height: 620px;
+            display: flex;
+            align-items: center; /* 자식 요소를 세로(수직) 기준으로 가운데 정렬시킴 */
+        }   
+        .image {
+            width: 500px;
+        }
+        .loader10:before{
+	        content: "";
+	        position: absolute;
+	        top: 0px;
+	        left: -25px;
+	        height: 12px;
+	        width: 12px;
+	        border-radius: 12px;
+	        -webkit-animation: loader10g 3s ease-in-out infinite;
+			    animation: loader10g 3s ease-in-out infinite;
+        }
+        .loader10{
+	        position: relative;
+	        width: 12px;
+	        height: 12px;
+	        top: 40%;
+	        left: 48%;
+	        border-radius: 12px;
+	        -webkit-animation: loader10m 3s ease-in-out infinite;
+			    animation: loader10m 3s ease-in-out infinite;
+        }
+        .loader10:after{
+	        content: "";
+	        position: absolute;
+	        top: 0px;
+	        left: 25px;
+	        height: 10px;
+	        width: 10px;
+	        border-radius: 10px;
+	        -webkit-animation: loader10d 3s ease-in-out infinite;
+			    animation: loader10d 3s ease-in-out infinite;
+        }
+        @-webkit-keyframes loader10g{
+	        0%{background-color: rgba(184, 184, 184, .2);}
+	        25%{background-color: rgb(184, 184, 184);}
+	        50%{background-color: rgba(184, 184, 184, .2);}
+	        75%{background-color: rgba(184, 184, 184, .2);}
+	        100%{background-color: rgba(184, 184, 184, .2);}
+        }
+        @keyframes loader10g{
+	        0%{background-color: rgba(184, 184, 184, .2);}
+          	25%{background-color: rgba(184, 184, 184, 1);}
+	        50%{background-color: rgba(184, 184, 184, .2);}
+        	75%{background-color: rgba(184, 184, 184, .2);}
+        	100%{background-color: rgba(184, 184, 184, .2);}
+        }
+        @-webkit-keyframes loader10m{
+        	0%{background-color: rgba(184, 184, 184, .2);}
+        	25%{background-color: rgba(184, 184, 184, .2);}
+         	50%{background-color: rgba(184, 184, 184, 1);}
+        	75%{background-color: rgba(184, 184, 184, .2);}
+        	100%{background-color: rgba(184, 184, 184, .2);}
+        }
+        @keyframes loader10m{
+	        0%{background-color: rgba(184, 184, 184, .2);}
+	        25%{background-color: rgba(184, 184, 184, .2);}
+        	50%{background-color: rgba(184, 184, 184, 1);}
+        	75%{background-color: rgba(184, 184, 184, .2);}
+	        100%{background-color: rgba(184, 184, 184, .2);}
+        }
+        @-webkit-keyframes loader10d{
+	        0%{background-color: rgba(184, 184, 184, .2);}
+        	25%{background-color: rgba(184, 184, 184, .2);}
+	        50%{background-color: rgba(184, 184, 184, .2);}
+	        75%{background-color: rgba(184, 184, 184, 1);}
+        	100%{background-color: rgba(184, 184, 184, .2);}
+        }
+        @keyframes loader10d{
+	        0%{background-color: rgba(184, 184, 184, .2);}
+	        25%{background-color: rgba(184, 184, 184, .2);}
+	        50%{background-color: rgba(184, 184, 184, .2);}
+        	75%{background-color: rgba(184, 184, 184, 1);}
+        	100%{background-color: rgba(184, 184, 184, .2);}
+        }
+
+    </style>
+</head>
+<meta http-equiv="refresh" content="2; url=https://thsd.framer.website"></meta>
+<body>
+        <div class="container">
+            <img class="image" src="thsd.kr-logo.svg">
+        </div>
+        <div class="box">
+			<div class="loader10">
+        </div>
+        <h1>&#169; 2024 thsd&#46; All Rights Reserved&#46;</h1>
+</body>
+</html>
